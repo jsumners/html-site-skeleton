@@ -1,0 +1,17 @@
+{
+  "name": "html-site-skeleton",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "web/bower",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "nodemon.json"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.2"
+  }
+}

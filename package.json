@@ -1,0 +1,26 @@
+{
+  "name": "html-site-skeleton",
+  "version": "0.1.0",
+  "description": "A skeleton project for serving an HTML site with Hapi",
+  "main": "site.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -V site.js"
+  },
+  "author": "James Sumners",
+  "license": "MIT",
+  "engines": {
+    "iojs": ">= 1.0.0",
+    "node": ">= 0.12.0"
+  },
+  "dependencies": {
+    "electrolyte": "0.0.6",
+    "goji": "^0.8.1",
+    "hapi": "^8.2.0",
+    "isdebug": "^0.1.1",
+    "winston": "^0.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.3.7"
+  }
+}
